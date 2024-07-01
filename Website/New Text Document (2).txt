@@ -1,0 +1,166 @@
+/* Base styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styles for .community-info-text */
+.community-info-text {
+    color: black; /* Adjust text color for .community-info-text */
+}
+
+/* Styles for .logo */
+.logo {
+    margin: 0;
+    padding: 1vh 0; /* Example padding for top and bottom */
+    background-color: #555555; /* Solid background color */
+    color: #333; /* Text color */
+    text-align: center; /* Center align text */
+}
+
+/* CSS for navigation buttons */
+.navs {
+    list-style-type: none;
+    padding: 10px;
+    display: flex; /* Use flexbox to display items horizontally */
+    margin: 0;
+    padding: 1vh 0; /* Example padding for top and bottom */
+    background-color: #555555; /* Solid background color */
+    text-align: center; /* Center align text */
+}
+
+.navs li {
+    margin-right: 10px; /* Adjust spacing between buttons */
+}
+
+.navs a {
+    display: inline-block;
+    padding: 15px 30px; /* Increase padding for larger size */
+    background-color: orange; /* Orange background */
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* Remove underline */
+    border-radius: 8px; /* Increase border-radius for more rounded corners */
+    font-size: 18px; /* Increase font size */
+}
+
+.navs a:hover {
+    background-color: darkorange; /* Darker orange on hover */
+}
+
+.community-points {
+    color: #333; /* Text color */
+    padding: 1vh 0; /* Example padding for top and bottom */
+    background-color: whitesmoke;
+}
+
+.community-info {
+    color: #333; /* Text color */
+    padding: 1vh 0; /* Example padding for top and bottom */
+    background-color: white;
+}
+
+.community-socials {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: #333; /* Text color */
+    background-color: whitesmoke;
+}
+
+.community-staff {
+    margin: 0;
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: #333; /* Text color */
+    background-color: white;
+}
+
+.community-kits {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: #333; /* Text color */
+    background-color: whitesmoke;
+}
+
+.text {
+    font-size: 17px;
+    font-style: italic;
+    padding-left: 5px;
+}
+
+.links li {
+    display: inline-block;
+    margin: 5px; /* Adjust spacing between buttons */
+}
+
+.links a {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding to reduce left padding */
+    background-color: orange; /* Orange background */
+    color: #000000;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 18px;
+    font-weight: bold; /* Add bold font weight for emphasis */
+    transition: background-color 0.3s ease; /* Smooth transition for background color */
+}
+
+.links a:hover {
+    background-color: darkorange; /* Darker shade of orange on hover */
+}
+
+/* Boxed text styles */
+.kit-name {
+    margin-top: 10px; /* Space between elements */
+    text-align: center; /* Center align text */
+    padding: 10px; /* Padding around the text */
+    background-color: darkorange; /* Orange background */
+    color: #000000; /* Text color */
+    font-size: 20px; /* Font size */
+    list-style-type: none; /* Remove default list style */
+    display: flex; /* Use flexbox to display items horizontally */
+    justify-content: center; /* Center align items horizontally */
+    align-items: center; /* Center align items vertically */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.kit-details {
+    margin-top: 10px; /* Space between elements */
+    text-align: left; /* Left align text */
+    padding: 10px; /* Padding around the text */
+    background-color: orange; /* Orange background */
+    color: #000000; /* Text color */
+    font-size: 16px; /* Font size */
+    display: flex; /* Use flexbox to display items horizontally */
+    flex-direction: column; /* Stack items vertically */
+    justify-content: left; /* Left align items horizontally */
+    align-items: left; /* Left align items vertically */
+    border-radius: 8px; /* Rounded corners */
+}
+
+.kit-details li {
+    margin-bottom: 5px; /* Space between list items */
+    list-style-type: none; /* Remove default list style */
+}
+
+.kit-details li:before {
+    content: "- "; /* Add a dash before each list item */
+}
+
+.kit-image {
+    max-width: 350px; /* Adjust maximum width for the images */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove default inline-block whitespace */
+    margin: 0 auto; /* Center align the image */
+    border: 1px solid #ccc; /* Add border around the images */
+    border-radius: 8px; /* Optional: Rounded corners */
+}
+
+.logo-image {
+    max-width: 90px;
+    border: 2px solid #ccc; /* Add border around the images */
+    border-radius: 100px; /* Rounded corners */
+}
+
+footer {
+    padding: 5px;
+    background-color: #5a5a5a;
+    text-align: center;
+}
