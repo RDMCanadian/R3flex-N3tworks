@@ -20,7 +20,7 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 1vh 5%;
-    background-color: #555555; /* Solid background color */
+
     text-align: center; /* Center align text */
 }
 
@@ -49,7 +49,6 @@ body {
     color: whitesmoke;
     margin: 0;
     padding: 1vh 0; /* Example padding for top and bottom */
-    background-color: #555555; /* Solid background color */
 }
 
 .navs li {
@@ -63,6 +62,7 @@ body {
     text-decoration: none; /* Remove underline */
     border-radius: 8px; /* Increase border-radius for more rounded corners */
     font-size: 18px; /* Increase font size */
+    background-color: #55555552; /* Solid background color */
 }
 
 .navs a:hover {
@@ -76,8 +76,11 @@ body {
     }
 }
 
-.changes {
-    display: flex;
+.sub-changes {
+    font-size: 17px;
+    font-style: italic;
+    color: black;
+    text-align: center; /* Center align text */
 }
 
 h3 {
@@ -86,7 +89,7 @@ h3 {
 .server {
     color: black;
     text-align: center; /* Center align text */
-    padding-top: 350px; /* Adjust as needed */
+    padding-top: 300px; /* Adjust as needed */
     padding-bottom: 350px;
 }
 
@@ -95,18 +98,57 @@ h3 {
     font-size: 30px;
 }
 
+.large2 {
+    text-align: center; /* Center align text */
+    font-size: 30px;
+        display: flex;
+}
+
 .changes {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Adjust as needed for spacing between columns */
+    margin-bottom: 50px; /* Adjust for spacing between rows */
+}
+
+.change-item {
+    width: 200px; /* Adjust width as needed */
+    word-wrap: break-word;
+}
+
+.sub-modifications {
+    font-size: 17px;
+    font-style: italic;
     color: black;
     text-align: center; /* Center align text */
-    padding-top: 50px; /* Adjust as needed */
-    width: 600px; /* Adjust the width as needed */
-    word-wrap: break-word; /* Ensure long words break and wrap */
-    display: flex;
-    margin: 0 auto; /* Optional: Center align the paragraph */
 }
+
+.sub-modifications2 {
+    font-size: 17px;
+    font-style: italic;
+    color: black;
+    text-align: center; /* Center align text */
+}
+
+.modifications {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px; /* Adjust as needed for spacing between columns */
+    margin-bottom: 50px; /* Adjust for spacing between rows */
+}
+
+.mod-item {
+    width: 200px; /* Adjust width as needed */
+    word-wrap: break-word;
+    padding: 50px;
+}
+
 
 .text1 {
     font-size: 20px; /* Corrected property name */
+    text-align: center; /* Center align text */
 }
 
 .Ref {
@@ -115,29 +157,54 @@ h3 {
     font-size: 40px;
 }
 .community-points {
+
     color: black; /* Text color */
     padding: 1vh 0; /* Example padding for top and bottom */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
 }
 
 .community-info {
     color: black; /* Text color */
     padding: 1vh 0; /* Example padding for top and bottom */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
 }
 
 .community-socials {
     padding: 1vh 0; /* Example padding for top and bottom */
     color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
 }
 
 .community-staff {
     margin: 0;
     padding: 1vh 0; /* Example padding for top and bottom */
     color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
 }
 
 .community-kits {
     padding: 1vh 0; /* Example padding for top and bottom */
     color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-modifications {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
+}
+
+.community-changes {
+    padding: 1vh 0; /* Example padding for top and bottom */
+    color: black; /* Text color */
+    text-align: center; /* Center align text */
+    padding-top: 300px;
 }
 
 h3 {
@@ -151,7 +218,24 @@ h1 {
 .text {
     font-size: 17px;
     font-style: italic;
-    padding-left: 5px;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center align text */
+    padding-top: 50px; /* Adjust as needed */
+    width: 600px; /* Adjust the width as needed */
+    word-wrap: break-word; /* Ensure long words break and wrap */
+    display: flex;
+    margin: 0 auto; /* Optional: Center align the paragraph */
+}
+
+.text3 {
+    font-size: 17px;
+    font-style: italic;
+    font-weight: bolder;
+    color: rgb(0, 0, 0);
+    text-align: center; /* Center align text */
+    padding-right: 50px;
+    display: inline-block;
 }
 
 .links li {
